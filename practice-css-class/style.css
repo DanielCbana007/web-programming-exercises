@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+}
+
+.numbers-section{
+    display: flex;
+    justify-content: center;
+    padding: 5vh;
+}
+
+.numbers-section>*{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 10px;
+    width: 13vh;
+}
+
+.number-one{
+    background-color: #00FFFF;
+}
+
+.number-two{
+    background-color: #00E676;
+    width: 15vh;
+}
+
+.number-three{
+    background-color: #ADFF2F;
+}
+
+.number-four{
+    background-color: #FFD700;
+}
+
+.number-five{
+    background-color: #FF8C00;
+    width: 25vh;
+}
+
+.number-six{
+    background-color: #FF4500 ;
+    width: 11vh;
+}
+
+.number-seven{
+    background-color: #9400D3;
+    width: 15vh;
+}
+
+.items-section{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+    border: solid red;
+}
+
+.items-section>*{
+    display: flex;
+}
+
+.items-section>* div {
+    display: flex;
+    padding: 6vh;
+    align-items: center;
+    height: 1rem;
+}
+
+.one {
+    background-color: #00FFFF;
+}
+
+.two {
+    background-color: #00CED1;
+}
+
+.three {
+    background-color: #1E90FF;
+}
+
+.four {
+    background-color: #4169E1;
+}
+
+.five {
+    background-color: #8A2BE2;
+    align-items: 20px; 
+}
+
+.six {
+    background-color: #9932CC; 
+}
+
+.item-seven{
+    align-items: end;
+}
+
+.seven {
+    background-color: #DC143C; 
+}
+
+.eight {
+    background-color: #FF4500; 
+}
+
+.nine {
+    background-color: #FF8C00; 
+}
+
+.item-ten{
+    align-items: center;
+}
+
+.ten {
+    background-color: #FFD700; 
+}
